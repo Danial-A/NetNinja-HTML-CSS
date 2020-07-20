@@ -123,3 +123,39 @@ footer{
     padding:10px;
     text-align: center;
 }
+
+/* pseudo classes */
+
+nav li a:hover{
+    text-decoration: underline;
+}
+
+.images li:hover{
+    position: relative;
+    top: -10px;
+
+}
+form input:focus{
+    border: 4px solid #4b4b4b;
+}
+form input:valid{
+    border: 4px solid #26b126;
+}
+form input:invalid{
+    border: 4px solid #f63232;
+}
+ article p::first-line{
+     font-weight: bold;
+     font-size: 1.2em;
+ }
+ section.join p::first-letter{
+     font-size: 1.5em;
+
+ }
+p::selection{
+    background-color: #f63232;
+    color: white;
+ }
+ p::after{
+     content: '....';
+ }
