@@ -7,21 +7,40 @@
     <title>Home</title>
 </head>
 <body>
-    <h2>Inline Elements</h2>
-    <span>Span Tag</span>
-    <em>Em Tag</em>
-    <a href="">Anchor Tag</a>
-    <span>Another Span Tag</span>
-
-    <h2>Block-Level Elements</h2>
-    <div>Div Tag</div>
-    <div>Another Div Tag</div>
-    <h3>H3 Tag</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, dicta!</p>
-    <ul>
-        <li>Li Tag</li>
-        <li>Another li Tag</li>
-        
-    </ul>
+    <header><h1>MarioClub</h1></header>
+    <section class="banner">
+        <img src="./imgs/banner.png" alt="mario banner">
+        <div class="welcome">
+        <h2>Welcome to <br><span>MarioClub</span></h2>
+    </div>
+    </section>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="/join.html" class="join">Join the club</a></li>
+            <li><a href="/news.html" >Latest news</a></li>
+            <li><a href="/games.html" >New Games</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <h2>It's me Mario</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quaerat quia quisquam voluptatem itaque repellendus labore amet numquam impedit saepe. Explicabo doloremque mollitia, laboriosam eum quam vel quis tempore excepturi. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus fugiat voluptas soluta perspiciatis quaerat, aliquam autem sunt accusantium reprehenderit esse officiis, facilis blanditiis ipsum iure, commodi dolorem. Illo, molestiae quidem!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, neque! Eius atque nesciunt itaque at. Officiis voluptatum blanditiis itaque alias facilis. Ad, cum. Commodi, laboriosam ad cum ex optio praesentium.</p>
+        </article>
+        <ul class="images">
+            <li><img src="./imgs/thumb-1.png" alt="thumb 1"></li>
+            <li><img src="./imgs/thumb-2.png" alt="thumb 1"></li>
+        </ul>
+    </main>
+    <section class="join">
+        <h2>Join Today!</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita alias deserunt maiores a incidunt quaerat aliquam quibusdam odio nesciunt quo suscipit quam unde nisi reprehenderit libero adipisci, qui doloremque dolore.</p>
+        <form action="">
+            <input type="email" name="email" placeholder="Type email and hit enter.." required>
+        </form>
+    </section>
+    <footer>
+        <p class="copyright">Copyright 2020 MarioClub</p>
+    </footer>
 </body>
 </html>
